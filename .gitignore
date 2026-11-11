@@ -1,0 +1,6 @@
+# Windows / OneDrive systeembestanden
+desktop.ini
+Thumbs.db
+
+# Lokale instellingen van Claude Code
+.claude/

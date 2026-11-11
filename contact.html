@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - Plutarchus</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="historie-hero">
+  <div class="hero-nav">
+    <a class="side-link" href="leden.html">Leden</a>
+    <a href="index.html"><img class="crest" src="images/logo.png" alt="Plutarchus wapen - naar home"></a>
+    <a class="side-link" href="historie.html">Historie</a>
+  </div>
+  <h1>Contact</h1>
+</section>
+
+<section class="section contact-page">
+  <div class="container contact-grid">
+
+    <div class="contact-info">
+      <h3>Postadres</h3>
+      <p class="address">
+        O.M.S.G. Plutarchus<br>
+        Postbus 93<br>
+        6200 AB Maastricht
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:secundus@plutarchus.nl">secundus@plutarchus.nl</a>
+        <a href="tel:+31642275016">+31 6 42275016</a>
+      </div>
+
+      <a class="map-link" href="https://www.google.com/maps/d/u/0/viewer?ll=50.85247700000002%2C5.700787999999983&spn=0.019019%2C0.040169&hl=en&t=h&msa=0&z=15&ie=UTF8&om=1&mid=1N363JleTfwNfSWQ9sAjKxP7Inz8" target="_blank" rel="noopener">Bekijk kaart</a>
+
+      <!-- Netlify Forms: werkt alleen als de site op Netlify gehost wordt (zie TODO.md) -->
+      <form class="contact-form" id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p hidden><label>Niet invullen: <input name="bot-field"></label></p>
+
+        <div class="form-row">
+          <input type="text" id="naam" name="naam" placeholder="Naam" required>
+          <input type="email" id="email" name="email" placeholder="E-mail" required>
+        </div>
+
+        <textarea id="bericht" name="bericht" placeholder="Bericht" required></textarea>
+
+        <input type="hidden" name="subject" value="Nieuw bericht via omsgplutarchus.nl">
+
+        <button type="submit">Verzenden</button>
+        <p class="form-status" id="form-status"></p>
+      </form>
+    </div>
+
+    <div class="contact-maps" id="map">
+      <!-- Bovenste kaart: Stationsstraat 48B -->
+      <iframe src="https://maps.google.com/maps?q=Stationsstraat+48B,+Maastricht,+Nederland&z=16&output=embed" loading="lazy" allowfullscreen title="Locatie Stationsstraat 48B"></iframe>
+      <!-- Onderste kaart: Wolfstraat 14 -->
+      <iframe src="https://maps.google.com/maps?q=Wolfstraat+14,+Maastricht,+Nederland&z=16&output=embed" loading="lazy" allowfullscreen title="Locatie Wolfstraat 14"></iframe>
+    </div>
+
+  </div>
+</section>
+
+<button class="back-to-top" id="back-to-top" aria-label="Naar boven">&uarr;</button>
+
+<div class="quote-light">
+  <blockquote>"Nor is it always in the most distinguished achievements that men's virtues or vices may be best discovered; but very often an action of small note, a short saying, or a jest, shall distinguish a person's real character more than the greatest sieges, or the most important battles."</blockquote>
+  <cite>&mdash; Plutarchus</cite>
+</div>
+
+<footer>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Plutarchus wapen">
+      <span>Plutarchus</span>
+    </div>
+    <div class="socials">
+      <a href="https://www.facebook.com/omsgplutarchus" target="_blank" rel="noopener"><img src="images/fb-icon.png" alt="Facebook"></a>
+      <a href="https://twitter.com/plutarchus" target="_blank" rel="noopener"><img src="images/tw-icon.png" alt="Twitter"></a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
