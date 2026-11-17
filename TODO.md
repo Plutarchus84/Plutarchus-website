@@ -10,7 +10,6 @@ Het contactformulier (`contact.html`) is al omgebouwd naar **Netlify Forms**. He
 - [x] Controleren of het formulier `contact` onder *Forms* in het dashboard staat
 - [x] E-mailmelding instellen
 - [x] Testbericht versturen via de live contactpagina: de mail komt aan
-- [ ] Op de pagina verschijnt na verzenden toch "Er ging iets mis": uitzoeken waarom
 - [ ] Gratis limiet van het formulier nakijken in het Netlify-plan
 - [ ] Officiële domeinnaam koppelen in Netlify (*Domain management*) zodra die bekend is
 
